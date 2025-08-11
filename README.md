@@ -1,14 +1,14 @@
 # databricks-banking-pipeline
 Data engineering project with databricks
-# 🏦 Banking Fraud Detection Pipeline – Databricks Lakehouse
+# Banking Fraud Detection Pipeline – Databricks Lakehouse
 
-## 📖 Project Overview
+##  Project Overview
 This project implements a **Bronze → Silver → Gold** data pipeline in **Databricks** for real-time banking fraud detection.  
 The solution ingests raw banking transactions, processes them through multiple transformation stages, and applies machine learning to flag potentially fraudulent activities.
 
 ---
 
-## 🚀 Features
+## Features
 - **Incremental data ingestion** using Databricks **Auto Loader**
 - **Delta Lake** storage architecture (Bronze, Silver, Gold)
 - Multiple fraud detection signals:
@@ -23,4 +23,4 @@ The solution ingests raw banking transactions, processes them through multiple t
 
 ---
 
-## 🏗 Architecture
+## Architecture
